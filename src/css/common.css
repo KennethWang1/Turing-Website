@@ -1,0 +1,10 @@
+.header-elements{
+    color: white;
+    font-size: x-large;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
