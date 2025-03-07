@@ -1,0 +1,12 @@
+.App{
+  padding: 20px;
+}
+
+#portrait{
+  width: 80px;
+  height: 107px;
+  background-repeat: no-repeat;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

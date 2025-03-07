@@ -1,0 +1,102 @@
+#instructions {
+    top: 120px;
+    position: fixed;
+    left:10vw;
+    height: 440px;
+    width: 80vw;
+    background-color: white;
+    color: black;
+}
+
+#win {
+    top: 120px;
+    position: fixed;
+    left:10vw;
+    height: 180px;
+    width: 80vw;
+    background-color: white;
+    color: black;
+}
+
+#instructions h2 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+#instructions p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+button{
+    background-color: #fff;
+    color: #000;
+    z-index: 200;
+}
+
+#instructions button {
+    position: relative;
+    display: block;
+    margin: auto;
+}
+
+#tape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+#tape .board-items{
+    position: relative;
+    height: 30px;
+    width: 30px;
+    border: 1px solid white;
+    text-align: center;
+    z-index: -10;
+}
+
+#moves{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+#moves .possible-moves{
+    position: relative;
+    height: 30px;
+    width: 30px;
+    border: 1px solid;
+    text-align: center;
+    z-index: 0;
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#machine{
+    display: block;
+    height: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 30px;
+    height: 10px;
+    position: fixed;
+    left: calc(50vw - 156px);
+}
+
+#button-row{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
